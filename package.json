@@ -1,0 +1,16 @@
+{
+  "name": "performance-marketing-eval",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "eval:claude": "bun src/run.ts --harness claude",
+    "eval:codex": "bun src/run.ts --harness codex",
+    "eval:grade": "bun src/grade.ts"
+  },
+  "engines": {
+    "bun": ">=1.2",
+    "node": ">=20"
+  }
+}
