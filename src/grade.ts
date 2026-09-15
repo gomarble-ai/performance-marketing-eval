@@ -604,7 +604,7 @@ function contextWriteDeterministicGrades(
   const staleId = typeof staleEntry?.id === 'string' ? staleEntry.id : undefined;
   const replacementId = typeof staleEntry?.replacement_id === 'string' ? staleEntry.replacement_id : undefined;
   const ukCampaignId = Object.entries(campaignRenames).find(([, value]) =>
-    Array.isArray(value) && value[0] === 'UK--ACQ--BE')?.[0];
+    Array.isArray(value) && value[0] === 'UK--ACQ--CC')?.[0];
   const replacementWriteIndex = calls.findIndex((call) => {
     if (call.name !== 'facebook_propose_update_adsets') return false;
     const adsets = record(call.args)?.adsets;
