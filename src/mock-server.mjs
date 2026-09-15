@@ -1187,10 +1187,10 @@ function meta004ActivityHistory() {
   const changeUtc = '2026-07-07T13:00:00+0000';
   const dateInTz = '7/7/2026 at 11:00 PM';
   const campaigns = [
-    { id: '571370563926502196', name: 'AU--ACQ--BE' },
-    { id: '571370565882852196', name: 'US--ACQ--BE' },
-    { id: '571370476872162196', name: 'UK--ACQ--BE' },
-    { id: '571370566280602196', name: 'NZ--ACQ--BE' },
+    { id: '571370563926502196', name: 'AU--ACQ--CC' },
+    { id: '571370565882852196', name: 'US--ACQ--CC' },
+    { id: '571370476872162196', name: 'UK--ACQ--CC' },
+    { id: '571370566280602196', name: 'NZ--ACQ--CC' },
   ];
   const data = campaigns.map((campaign) => ({
     event_time: changeUtc,
